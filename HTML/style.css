@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.container {
+    height: auto;
+}
+/* *****imagePrincipale**** */
+
+#imagePrincipal{
+    padding-top: 60px;
+    background: url(/Evaluation/Evaluation/image/principale.jpg) no-repeat/*ne se repete pas*/ fixed 50%;
+    background-size: cover;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family:'cursive';
+    text-align: center;
+    color: antiquewhite;
+    font-size: 5em;
+    margin-top: 110px;
+    text-shadow: 2px 3px 2px black;
+
+}
+#imagePrincipal h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 2px 3px 2px black;
+}
+
+/*****navbar******/
+#navbar{
+    margin-top: 50px;
+}
+
+#logo{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    float: left;
+
+}
+
+
+
+
+/* ********contenu******** */
+
+
+
+#haut {
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'cursive';
+    font-size-adjust: 1.8em;
+    border-radius: 5px;
+}
+#back {
+    
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+}
+#premierTrait {
+    height: 2px;
+    width: 50%;
+    margin: -3px auto;
+    background-color: rgb(156, 209, 187);
+    box-shadow: 2px 3px 2px black;
+}
+#contenu {
+    padding: auto;
+    text-align: center;
+}
+.btn {
+    text-align: center;
+}
+.cards {
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    height: auto;
+    font-size: 1.2em;
+    
+}
+.cards p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;/*permet de mettre le paragrapfe sur quatre ligne et de chacher le reste avec des points*/
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.cards h2 {
+    border:1px solid black;
+    background-color: #FFFAE1;
+}
+.cards #left {
+    float: left;
+    border: 1px solid black;
+    
+}
+.cards #right {
+    float: right;
+    border: 1px solid black;
+   color: black;
+}
+
+.carousel {
+    
+    border-radius: px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    font-size: 1.2em;
+}
+.carousel img {
+    border-radius: 50%;
+}
+/* ********leftPart*********** */
+
+#leftPart {
+    
+    border-radius: 10px;
+    padding:20px;
+    margin-bottom: 10px;
+    max-height: 80%;
+} 
+#leftPart h3 {
+    border: 1px solid black;
+    background-color: #FFFAE1;
+    
+    
+}
+.tips {
+    height: 150px;
+    width: 150px;
+    margin: 55px auto;
+    border-radius: 50%;
+    
+}
+.tips h4 {
+    margin-top: 85px;
+    padding-top: 40px;
+    position: relative;
+    transform: translateY(100%);
+    text-shadow: 2px 2px 0 #bcf5a9, 2px -2px 0 #bcf5a9, -2px 2px 0 #bcf5a9, -2px -2px 0 #bcf5a9, 2px 0px 0 #bcf5a9, 0px 2px 0 #bcf5a9, -2px 0px 0 #bcf5a9, 0px -2px 0 #bcf5a9;
+}
+.tips:hover {
+    transform: scale(1.08);
+    opacity: 0.8;
+    transition: ease-out 0.2s;
+}
+
+/* ******rightPart********* */
+
+#rightPart {
+    
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    
+    
+}
+#rightPart h4 {
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: #FFFAE1;
+}
+
+
+.elements p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    
+    color: black;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;/*permet de mettre le paragrapfe sur quatre ligne et de chacher le reste avec des points*/
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.elements .button {
+    text-align: center;
+}
+
+
+
+/* ***********centerPart********** */
+
+#centerPart {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing';
+    max-height: 1100px;
+    margin-bottom: 10px;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;/*permet de mettre le paragrapfe sur quatre ligne et de chacher le reste avec des points*/
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.row {
+    margin-top: 30px;
+}
+ 
+#centerPart h4 {
+    margin-top: 50px;
+    margin-bottom: 4%;
+    
+}
+
+#centerPart h2 {
+    margin-bottom: 10px;
+}
+
+/* ********footer******** */
+
+#deuxiemeTrait {
+    height: 2px;
+    width: 50%;
+    margin: 10px auto;
+    margin-bottom: 35px;
+    background-color: rgb(156, 209, 187);
+    box-shadow: 2px 3px 2px black;
+}
+footer {
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    width: 98%;
+    background-color: whitesmoke;
+}
+footer p {
+    font-family: cursive;
+    text-align: center;
+}
+
+/* ***********newsletter********* */
+
+#newsletter {
+    background: url(/Evaluation/Evaluation/image/news.jpg)no-repeat 55% 70%;
+    background-size: cover;
+    height: 350px;
+    width: 70%;
+    min-width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+#newsletter h4 {
+    margin-top: 15px;
+    padding: 100px 0 20px 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 #bcf5a9, 2px -2px 0 #bcf5a9, -2px 2px 0 #bcf5a9, -2px -2px 0 #bcf5a9, 2px 0px 0 #bcf5a9, 0px 2px 0 #bcf5a9, -2px 0px 0 #bcf5a9, 0px -2px 0 #bcf5a9;
+}
+#newsletter .input-group {
+    width: 40%;
+    min-width: 135px;
+    margin: 0 auto;
+}
+#newsletter button {
+    color: black;
+    border: 1px solid black;
+}
+/* **********icons********* */
+
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+
+
+
+#icons {
+    width: 50%;
+    text-align: center;
+
+}
+
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: rgb(156, 209, 187);
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+
+}
